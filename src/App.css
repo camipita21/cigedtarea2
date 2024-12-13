@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+
+.images-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2px;
+}
+
+.responsive-image {
+  width: 100%;
+  height:auto;
+}
